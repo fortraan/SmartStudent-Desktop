@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D096752B1E008C5C00AFE19A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096752A1E008C5C00AFE19A /* AppDelegate.swift */; };
+		D096752D1E008C5C00AFE19A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096752C1E008C5C00AFE19A /* ViewController.swift */; };
+		D096752F1E008C5C00AFE19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D096752E1E008C5C00AFE19A /* Assets.xcassets */; };
+		D09675321E008C5C00AFE19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09675301E008C5C00AFE19A /* Main.storyboard */; };
+		D096753D1E008C5C00AFE19A /* SmartStudent_DesktopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096753C1E008C5C00AFE19A /* SmartStudent_DesktopTests.swift */; };
+		D09675481E008C5C00AFE19A /* SmartStudent_DesktopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09675471E008C5C00AFE19A /* SmartStudent_DesktopUITests.swift */; };
+		D09676271E047AE000AFE19A /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09676261E047AE000AFE19A /* SwiftHTTP.framework */; };
+		D09676291E047AF000AFE19A /* SwiftHTTP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D09676261E047AE000AFE19A /* SwiftHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09675391E008C5C00AFE19A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D096751F1E008C5C00AFE19A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09675261E008C5C00AFE19A;
+			remoteInfo = "SmartStudent Desktop";
+		};
+		D09675441E008C5C00AFE19A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D096751F1E008C5C00AFE19A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09675261E008C5C00AFE19A;
+			remoteInfo = "SmartStudent Desktop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D09676281E047AE500AFE19A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D09676291E047AF000AFE19A /* SwiftHTTP.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D09675271E008C5C00AFE19A /* SmartStudent Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartStudent Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D096752A1E008C5C00AFE19A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D096752C1E008C5C00AFE19A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D096752E1E008C5C00AFE19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09675311E008C5C00AFE19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09675331E008C5C00AFE19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09675381E008C5C00AFE19A /* SmartStudent DesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartStudent DesktopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D096753C1E008C5C00AFE19A /* SmartStudent_DesktopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStudent_DesktopTests.swift; sourceTree = "<group>"; };
+		D096753E1E008C5C00AFE19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09675431E008C5C00AFE19A /* SmartStudent DesktopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartStudent DesktopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09675471E008C5C00AFE19A /* SmartStudent_DesktopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStudent_DesktopUITests.swift; sourceTree = "<group>"; };
+		D09675491E008C5C00AFE19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09676261E047AE000AFE19A /* SwiftHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftHTTP.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09675241E008C5C00AFE19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09676271E047AE000AFE19A /* SwiftHTTP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09675351E008C5C00AFE19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09675401E008C5C00AFE19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D096751E1E008C5C00AFE19A = {
+			isa = PBXGroup;
+			children = (
+				D09675291E008C5C00AFE19A /* SmartStudent Desktop */,
+				D096753B1E008C5C00AFE19A /* SmartStudent DesktopTests */,
+				D09675461E008C5C00AFE19A /* SmartStudent DesktopUITests */,
+				D09675281E008C5C00AFE19A /* Products */,
+				D09676251E047AE000AFE19A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D09675281E008C5C00AFE19A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09675271E008C5C00AFE19A /* SmartStudent Desktop.app */,
+				D09675381E008C5C00AFE19A /* SmartStudent DesktopTests.xctest */,
+				D09675431E008C5C00AFE19A /* SmartStudent DesktopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09675291E008C5C00AFE19A /* SmartStudent Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				D096752A1E008C5C00AFE19A /* AppDelegate.swift */,
+				D096752C1E008C5C00AFE19A /* ViewController.swift */,
+				D096752E1E008C5C00AFE19A /* Assets.xcassets */,
+				D09675301E008C5C00AFE19A /* Main.storyboard */,
+				D09675331E008C5C00AFE19A /* Info.plist */,
+			);
+			path = "SmartStudent Desktop";
+			sourceTree = "<group>";
+		};
+		D096753B1E008C5C00AFE19A /* SmartStudent DesktopTests */ = {
+			isa = PBXGroup;
+			children = (
+				D096753C1E008C5C00AFE19A /* SmartStudent_DesktopTests.swift */,
+				D096753E1E008C5C00AFE19A /* Info.plist */,
+			);
+			path = "SmartStudent DesktopTests";
+			sourceTree = "<group>";
+		};
+		D09675461E008C5C00AFE19A /* SmartStudent DesktopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D09675471E008C5C00AFE19A /* SmartStudent_DesktopUITests.swift */,
+				D09675491E008C5C00AFE19A /* Info.plist */,
+			);
+			path = "SmartStudent DesktopUITests";
+			sourceTree = "<group>";
+		};
+		D09676251E047AE000AFE19A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D09676261E047AE000AFE19A /* SwiftHTTP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09675261E008C5C00AFE19A /* SmartStudent Desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D096754C1E008C5C00AFE19A /* Build configuration list for PBXNativeTarget "SmartStudent Desktop" */;
+			buildPhases = (
+				D09675231E008C5C00AFE19A /* Sources */,
+				D09675241E008C5C00AFE19A /* Frameworks */,
+				D09675251E008C5C00AFE19A /* Resources */,
+				D09676281E047AE500AFE19A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartStudent Desktop";
+			productName = "SmartStudent Desktop";
+			productReference = D09675271E008C5C00AFE19A /* SmartStudent Desktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09675371E008C5C00AFE19A /* SmartStudent DesktopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D096754F1E008C5C00AFE19A /* Build configuration list for PBXNativeTarget "SmartStudent DesktopTests" */;
+			buildPhases = (
+				D09675341E008C5C00AFE19A /* Sources */,
+				D09675351E008C5C00AFE19A /* Frameworks */,
+				D09675361E008C5C00AFE19A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D096753A1E008C5C00AFE19A /* PBXTargetDependency */,
+			);
+			name = "SmartStudent DesktopTests";
+			productName = "SmartStudent DesktopTests";
+			productReference = D09675381E008C5C00AFE19A /* SmartStudent DesktopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09675421E008C5C00AFE19A /* SmartStudent DesktopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09675521E008C5C00AFE19A /* Build configuration list for PBXNativeTarget "SmartStudent DesktopUITests" */;
+			buildPhases = (
+				D096753F1E008C5C00AFE19A /* Sources */,
+				D09675401E008C5C00AFE19A /* Frameworks */,
+				D09675411E008C5C00AFE19A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09675451E008C5C00AFE19A /* PBXTargetDependency */,
+			);
+			name = "SmartStudent DesktopUITests";
+			productName = "SmartStudent DesktopUITests";
+			productReference = D09675431E008C5C00AFE19A /* SmartStudent DesktopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D096751F1E008C5C00AFE19A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Smartstar;
+				TargetAttributes = {
+					D09675261E008C5C00AFE19A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D09675371E008C5C00AFE19A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D09675261E008C5C00AFE19A;
+					};
+					D09675421E008C5C00AFE19A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D09675261E008C5C00AFE19A;
+					};
+				};
+			};
+			buildConfigurationList = D09675221E008C5C00AFE19A /* Build configuration list for PBXProject "SmartStudent Desktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D096751E1E008C5C00AFE19A;
+			productRefGroup = D09675281E008C5C00AFE19A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09675261E008C5C00AFE19A /* SmartStudent Desktop */,
+				D09675371E008C5C00AFE19A /* SmartStudent DesktopTests */,
+				D09675421E008C5C00AFE19A /* SmartStudent DesktopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09675251E008C5C00AFE19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D096752F1E008C5C00AFE19A /* Assets.xcassets in Resources */,
+				D09675321E008C5C00AFE19A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09675361E008C5C00AFE19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09675411E008C5C00AFE19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09675231E008C5C00AFE19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D096752D1E008C5C00AFE19A /* ViewController.swift in Sources */,
+				D096752B1E008C5C00AFE19A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09675341E008C5C00AFE19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D096753D1E008C5C00AFE19A /* SmartStudent_DesktopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D096753F1E008C5C00AFE19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09675481E008C5C00AFE19A /* SmartStudent_DesktopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D096753A1E008C5C00AFE19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09675261E008C5C00AFE19A /* SmartStudent Desktop */;
+			targetProxy = D09675391E008C5C00AFE19A /* PBXContainerItemProxy */;
+		};
+		D09675451E008C5C00AFE19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09675261E008C5C00AFE19A /* SmartStudent Desktop */;
+			targetProxy = D09675441E008C5C00AFE19A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09675301E008C5C00AFE19A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09675311E008C5C00AFE19A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D096754A1E008C5C00AFE19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D096754B1E008C5C00AFE19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D096754D1E008C5C00AFE19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "SmartStudent Desktop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartstar.SmartStudent-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D096754E1E008C5C00AFE19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "SmartStudent Desktop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartstar.SmartStudent-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D09675501E008C5C00AFE19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SmartStudent DesktopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartstar.SmartStudent-DesktopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartStudent Desktop.app/Contents/MacOS/SmartStudent Desktop";
+			};
+			name = Debug;
+		};
+		D09675511E008C5C00AFE19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SmartStudent DesktopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartstar.SmartStudent-DesktopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartStudent Desktop.app/Contents/MacOS/SmartStudent Desktop";
+			};
+			name = Release;
+		};
+		D09675531E008C5C00AFE19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SmartStudent DesktopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartstar.SmartStudent-DesktopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SmartStudent Desktop";
+			};
+			name = Debug;
+		};
+		D09675541E008C5C00AFE19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SmartStudent DesktopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartstar.SmartStudent-DesktopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SmartStudent Desktop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09675221E008C5C00AFE19A /* Build configuration list for PBXProject "SmartStudent Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D096754A1E008C5C00AFE19A /* Debug */,
+				D096754B1E008C5C00AFE19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D096754C1E008C5C00AFE19A /* Build configuration list for PBXNativeTarget "SmartStudent Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D096754D1E008C5C00AFE19A /* Debug */,
+				D096754E1E008C5C00AFE19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D096754F1E008C5C00AFE19A /* Build configuration list for PBXNativeTarget "SmartStudent DesktopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09675501E008C5C00AFE19A /* Debug */,
+				D09675511E008C5C00AFE19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09675521E008C5C00AFE19A /* Build configuration list for PBXNativeTarget "SmartStudent DesktopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09675531E008C5C00AFE19A /* Debug */,
+				D09675541E008C5C00AFE19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D096751F1E008C5C00AFE19A /* Project object */;
+}
